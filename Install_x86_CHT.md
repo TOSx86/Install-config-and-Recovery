@@ -16,7 +16,7 @@
 
 # B. 開始安裝
 
-1. 開啟 BalenaEtcher 或 Rufus。把上面第4點的 TOS 引導鏡像 寫入你的U 盤。以下為圖文教程。
+Step 1 : 開啟 BalenaEtcher 或 Rufus。把上面第4點的 TOS 引導鏡像 寫入你的U 盤。以下為圖文教程。
 
 先打開 BalenaEtcher ，點選 “從檔案燒錄”，然後再選擇 你電腦上的 [USB-initboot-V2037-230MB..img]，然後點選 “開啟”
 
