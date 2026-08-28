@@ -1,3 +1,5 @@
+# 在x86電腦上安裝Terramaster TOS 7 
+
 # A. 準備安裝
 
 在準備在你的DIY 電腦 ／NAS 上安裝 TOS 7之前，請準備好以下物品
