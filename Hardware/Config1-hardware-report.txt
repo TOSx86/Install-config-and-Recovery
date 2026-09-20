@@ -1,0 +1,1245 @@
+===== SYSTEM =====
+computer
+    description: Desktop Computer
+    product: Polestar H770 (Default string)
+    vendor: ERYING
+    version: Default string
+    serial: [REMOVED]
+    width: 64 bits
+    capabilities: smbios-3.6.0 dmi-3.6.0 smp vsyscall32
+    configuration: boot=normal chassis=desktop family=Default string sku=Default string uuid=[REMOVED]
+  *-core
+       description: Motherboard
+       product: Polestar H770 ATX D5
+       vendor: ERYING
+       physical id: 0
+       slot: Default string
+     *-firmware
+          description: BIOS
+          vendor: American Megatrends International, LLC.
+          physical id: 0
+          version: 5.27
+          date: 09/19/2024
+          size: 64KiB
+          capacity: 16MiB
+          capabilities: pci upgrade shadowing cdboot bootselect socketedrom edd int13floppynec int13floppytoshiba int13floppy360 int13floppy1200 int13floppy720 int13floppy2880 int5printscreen int9keyboard int14serial int17printer int10video acpi usb biosbootspecification uefi
+     *-memory
+          description: System Memory
+          physical id: 3b
+          slot: System board or motherboard
+          size: 32GiB
+        *-bank:0
+             description: [empty]
+             physical id: 0
+             slot: Controller0-ChannelA-DIMM0
+        *-bank:1
+             description: DIMM Synchronous 4800 MHz (0.2 ns)
+             vendor: Micron Technology
+             physical id: 1
+             serial: [REMOVED]
+             slot: Controller0-ChannelA-DIMM1
+             size: 16GiB
+             width: 64 bits
+             clock: 505MHz (2.0ns)
+        *-bank:2
+             description: [empty]
+             physical id: 2
+             slot: Controller1-ChannelA-DIMM0
+        *-bank:3
+             description: DIMM Synchronous 4800 MHz (0.2 ns)
+             vendor: Micron Technology
+             physical id: 3
+             serial: [REMOVED]
+             slot: Controller1-ChannelA-DIMM1
+             size: 16GiB
+             width: 64 bits
+             clock: 505MHz (2.0ns)
+     *-cache:0
+          description: L1 cache
+          physical id: 4a
+          slot: L1 Cache
+          size: 384KiB
+          capacity: 384KiB
+          capabilities: synchronous internal write-back data
+          configuration: level=1
+     *-cache:1
+          description: L1 cache
+          physical id: 4b
+          slot: L1 Cache
+          size: 256KiB
+          capacity: 256KiB
+          capabilities: synchronous internal write-back instruction
+          configuration: level=1
+     *-cache:2
+          description: L2 cache
+          physical id: 4c
+          slot: L2 Cache
+          size: 16MiB
+          capacity: 16MiB
+          capabilities: synchronous internal write-back unified
+          configuration: level=2
+     *-cache:3
+          description: L3 cache
+          physical id: 4d
+          slot: L3 Cache
+          size: 36MiB
+          capacity: 36MiB
+          capabilities: synchronous internal write-back unified
+          configuration: level=3
+     *-cache:4
+          description: L1 cache
+          physical id: 4e
+          slot: L1 Cache
+          size: 512KiB
+          capacity: 512KiB
+          capabilities: synchronous internal write-back data
+          configuration: level=1
+     *-cache:5
+          description: L1 cache
+          physical id: 4f
+          slot: L1 Cache
+          size: 1MiB
+          capacity: 1MiB
+          capabilities: synchronous internal write-back instruction
+          configuration: level=1
+     *-cache:6
+          description: L2 cache
+          physical id: 50
+          slot: L2 Cache
+          size: 16MiB
+          capacity: 16MiB
+          capabilities: synchronous internal write-back unified
+          configuration: level=2
+     *-cache:7
+          description: L3 cache
+          physical id: 51
+          slot: L3 Cache
+          size: 36MiB
+          capacity: 36MiB
+          capabilities: synchronous internal write-back unified
+          configuration: level=3
+     *-cpu
+          description: CPU
+          product: 13th Gen Intel(R) Core(TM) i9-13900HX
+          vendor: Intel Corp.
+          physical id: 52
+          bus info: cpu@0
+          version: 6.183.1
+          serial: [REMOVED]
+          slot: U3E1
+          size: 400MHz
+          capacity: 5200MHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: lm fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp x86-64 constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect user_shstk avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize arch_lbr ibt flush_l1d arch_capabilities cpufreq
+          configuration: cores=24 enabledcores=24 microcode=307 threads=32
+     *-pci
+          description: Host bridge
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+        *-pci:0
+             description: PCI bridge
+             product: Raptor Lake PCI Express 5.0 Graphics Port (PEG010)
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:122 ioport:4017000000(size=9437184)
+           *-network:0
+                description: Ethernet interface
+                product: Ethernet Controller 10-Gigabit X540-AT2
+                vendor: Intel Corporation
+                physical id: 0
+                bus info: pci@0000:01:00.0
+                logical name: enp1s0f0
+                version: 01
+                serial: [REMOVED]
+                capacity: 10Gbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi msix pciexpress bus_master cap_list ethernet physical tp 100bt-fd 1000bt-fd 10000bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=ixgbe driverversion=7.0.0-31-generic firmware=0x8000052f latency=0 link=no multicast=yes port=twisted pair
+                resources: iomemory:400-3ff iomemory:400-3ff irq:16 memory:4017000000-40171fffff memory:4017400000-4017403fff memory:4017404000-4017503fff memory:4017504000-4017603fff
+           *-network:1
+                description: Ethernet interface
+                product: Ethernet Controller 10-Gigabit X540-AT2
+                vendor: Intel Corporation
+                physical id: 0.1
+                bus info: pci@0000:01:00.1
+                logical name: enp1s0f1
+                version: 01
+                serial: [REMOVED]
+                capacity: 10Gbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi msix pciexpress bus_master cap_list ethernet physical tp 100bt-fd 1000bt-fd 10000bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=ixgbe driverversion=7.0.0-31-generic firmware=0x8000052f latency=0 link=no multicast=yes port=twisted pair
+                resources: iomemory:400-3ff iomemory:400-3ff irq:17 memory:4017200000-40173fffff memory:4017604000-4017607fff memory:4017608000-4017707fff memory:4017708000-4017807fff
+        *-display
+             description: VGA compatible controller
+             product: Raptor Lake-S UHD Graphics
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             logical name: /dev/fb0
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pciexpress msi pm vga_controller bus_master cap_list rom fb
+             configuration: depth=32 driver=i915 latency=0 mode=1920x1080 resolution=1920,1080 visual=truecolor xres=1920 yres=1080
+             resources: iomemory:600-5ff iomemory:400-3ff irq:244 memory:6001000000-6001ffffff memory:4000000000-400fffffff ioport:6000(size=64) memory:c0000-dffff memory:4010000000-4016ffffff memory:4020000000-40ffffffff
+        *-pci:1
+             description: PCI bridge
+             product: Raptor Lake PCI Express 4.0 Graphics Port
+             vendor: Intel Corporation
+             physical id: 6
+             bus info: pci@0000:00:06.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:123 ioport:5000(size=4096) memory:80b00000-80bfffff
+           *-nvme
+                description: NVMe device
+                product: SAMSUNG MZFLV256HCHP-000MV
+                vendor: Samsung Electronics Co Ltd
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                logical name: /dev/nvme0
+                version: BXV75M0Q
+                serial: [REMOVED]
+                width: 64 bits
+                clock: 33MHz
+                capabilities: nvme pm msi pciexpress msix nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0 nqn=nqn.2014.08.org.nvmexpress:144d144dS245NX0H707036      SAMSUNG MZFLV256HCHP-000MV state=live
+                resources: irq:16 memory:80b00000-80b03fff ioport:5000(size=256)
+              *-namespace:0
+                   description: NVMe disk
+                   physical id: 0
+                   logical name: hwmon1
+              *-namespace:1
+                   description: NVMe disk
+                   physical id: 2
+                   logical name: /dev/ng0n1
+              *-namespace:2
+                   description: NVMe disk
+                   physical id: 1
+                   bus info: nvme@0:1
+                   logical name: /dev/nvme0n1
+                   size: 238GiB (256GB)
+                   capabilities: gpt-1.00 partitioned partitioned:gpt
+                   configuration: guid=2d28ede0-017c-4fa2-b791-143c46159c94 logicalsectorsize=512 sectorsize=512 wwid=nvme.144d-533234354e583048373037303336-53414d53554e47204d5a464c56323536484348502d3030304d56-00000001
+                 *-volume:0
+                      description: Windows FAT volume
+                      vendor: mkfs.fat
+                      physical id: 1
+                      bus info: nvme@0:1,1
+                      logical name: /dev/nvme0n1p1
+                      logical name: /boot/efi
+                      version: FAT32
+                      serial: [REMOVED]
+                      size: 1073MiB
+                      capacity: 1074MiB
+                      capabilities: boot fat initialized
+                      configuration: FATs=2 filesystem=fat mount.fstype=vfat mount.options=rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro state=mounted
+                 *-volume:1
+                      description: EXT4 volume
+                      vendor: Linux
+                      physical id: 2
+                      bus info: nvme@0:1,2
+                      logical name: /dev/nvme0n1p2
+                      logical name: /
+                      version: 1.0
+                      serial: [REMOVED]
+                      size: 237GiB
+                      capabilities: journaled extended_attributes large_files huge_files dir_nlink recover 64bit extents ext4 ext2 initialized
+                      configuration: created=2026-09-19 18:32:43 filesystem=ext4 lastmountpoint=/ modified=2026-09-19 19:40:46 mount.fstype=ext4 mount.options=rw,relatime mounted=2026-09-19 19:40:49 state=mounted
+        *-generic
+             description: Signal processing controller
+             product: Raptor Lake Crashlog and Telemetry
+             vendor: Intel Corporation
+             physical id: a
+             bus info: pci@0000:00:0a.0
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pciexpress pm cap_list
+             configuration: driver=intel_vsec latency=0
+             resources: iomemory:600-5ff irq:0 memory:6002110000-6002117fff
+        *-usb
+             description: USB controller
+             product: Raptor Lake USB 3.2 Gen 2x2 (20 Gb/s) XHCI Host Controller
+             vendor: Intel Corporation
+             physical id: 14
+             bus info: pci@0000:00:14.0
+             version: 11
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi xhci bus_master cap_list
+             configuration: driver=xhci_hcd latency=0
+             resources: iomemory:600-5ff irq:126 memory:6002100000-600210ffff
+           *-usbhost:0
+                product: xHCI Host Controller
+                vendor: Linux 7.0.0-31-generic xhci-hcd
+                physical id: 0
+                bus info: usb@1
+                logical name: usb1
+                version: 7.00
+                capabilities: usb-2.00
+                configuration: driver=hub slots=16 speed=480Mbit/s
+              *-usb:0
+                   description: USB hub
+                   product: USB2.0 Hub
+                   vendor: Genesys Logic, Inc.
+                   physical id: 5
+                   bus info: usb@1:5
+                   version: 77.63
+                   capabilities: usb-2.00
+                   configuration: driver=hub maxpower=100mA slots=4 speed=480Mbit/s
+                 *-usb:0
+                      description: Keyboard
+                      product: Thermaltake Tt eSPORTS MEKA G UNIT gaming keyboard
+                      vendor: Thermaltake
+                      physical id: 3
+                      bus info: usb@1:5.3
+                      logical name: input7
+                      logical name: /dev/input/event4
+                      logical name: input7::capslock
+                      logical name: input7::numlock
+                      logical name: input7::scrolllock
+                      logical name: input8
+                      logical name: /dev/input/event5
+                      logical name: input9
+                      logical name: /dev/input/event6
+                      version: 1.22
+                      capabilities: usb-2.00 usb
+                      configuration: driver=usbhid maxpower=100mA speed=12Mbit/s
+                 *-usb:1
+                      description: Audio device
+                      product: HOLTEK  HOLTEK USB PHONE Consumer Control
+                      vendor: HOLTEK
+                      physical id: 4
+                      bus info: usb@1:5.4
+                      logical name: card1
+                      logical name: /dev/snd/controlC1
+                      logical name: /dev/snd/pcmC1D0c
+                      logical name: /dev/snd/pcmC1D0p
+                      logical name: input10
+                      logical name: /dev/input/event7
+                      version: 1.00
+                      capabilities: usb-1.10 audio-control usb
+                      configuration: driver=usbhid maxpower=500mA speed=12Mbit/s
+              *-usb:1
+                   description: Mouse
+                   product: PixArt USB Optical Mouse
+                   vendor: PixArt
+                   physical id: 6
+                   bus info: usb@1:6
+                   logical name: input6
+                   logical name: /dev/input/event3
+                   logical name: /dev/input/mouse0
+                   version: 1.00
+                   capabilities: usb-2.00 usb
+                   configuration: driver=usbhid maxpower=100mA speed=2Mbit/s
+              *-usb:2
+                   description: Bluetooth wireless interface
+                   product: Bluetooth 9460/9560 Jefferson Peak (JfP)
+                   vendor: Intel Corp.
+                   physical id: e
+                   bus info: usb@1:e
+                   version: 0.02
+                   capabilities: bluetooth usb-2.00
+                   configuration: driver=btusb maxpower=100mA speed=12Mbit/s
+           *-usbhost:1
+                product: xHCI Host Controller
+                vendor: Linux 7.0.0-31-generic xhci-hcd
+                physical id: 1
+                bus info: usb@2
+                logical name: usb2
+                version: 7.00
+                capabilities: usb-3.10
+                configuration: driver=hub slots=10 speed=10000Mbit/s
+        *-memory UNCLAIMED
+             description: RAM memory
+             product: Raptor Lake PCH Shared SRAM
+             vendor: Intel Corporation
+             physical id: 14.2
+             bus info: pci@0000:00:14.2
+             version: 11
+             width: 64 bits
+             clock: 33MHz (30.3ns)
+             capabilities: pm cap_list
+             configuration: latency=0
+             resources: iomemory:600-5ff iomemory:600-5ff memory:6002128000-600212bfff memory:600212e000-600212efff
+        *-network
+             description: Wireless interface
+             product: 700 Series Chipset CNVi WiFi
+             vendor: Intel Corporation
+             physical id: 14.3
+             bus info: pci@0000:00:14.3
+             logical name: wlo1
+             version: 11
+             serial: [REMOVED]
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress msix bus_master cap_list ethernet physical wireless
+             configuration: broadcast=yes driver=iwlwifi driverversion=7.0.0-31-generic firmware=77.f92b5fed.0 so-a0-jf-b0-77.uc latency=0 link=no multicast=yes wireless=IEEE 802.11
+             resources: iomemory:600-5ff irq:18 memory:6002124000-6002127fff
+        *-communication
+             description: Communication controller
+             product: Raptor Lake CSME HECI #1
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 11
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=mei_me latency=0
+             resources: iomemory:600-5ff irq:160 memory:600212d000-600212dfff
+        *-sata
+             description: SATA controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 17
+             bus info: pci@0000:00:17.0
+             version: 11
+             width: 32 bits
+             clock: 66MHz
+             capabilities: sata msi pm ahci_1.0 bus_master cap_list
+             configuration: driver=ahci latency=0
+             resources: irq:134 memory:80c00000-80c01fff memory:80c03000-80c030ff ioport:6090(size=8) ioport:6080(size=4) ioport:6060(size=32) memory:80c02000-80c027ff
+        *-pci:2
+             description: PCI bridge
+             product: Raptor Lake PCI Express Root Port #5
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: 11
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:124 ioport:4000(size=4096) memory:80800000-809fffff
+           *-sas
+                description: Serial Attached SCSI controller
+                product: SAS2308 PCI-Express Fusion-MPT SAS-2
+                vendor: Broadcom / LSI
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                version: 05
+                width: 64 bits
+                clock: 33MHz
+                capabilities: sas pm pciexpress vpd msi msix bus_master cap_list rom
+                configuration: driver=mpt3sas latency=0
+                resources: irq:16 ioport:4000(size=256) memory:80940000-8094ffff memory:80900000-8093ffff memory:80800000-808fffff
+        *-pci:3
+             description: PCI bridge
+             product: Raptor Lake PCI Express Root Port #16
+             vendor: Intel Corporation
+             physical id: 1d
+             bus info: pci@0000:00:1d.0
+             version: 11
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:125 ioport:3000(size=4096) memory:80a00000-80afffff
+           *-network
+                description: Ethernet interface
+                product: RTL8125 2.5GbE Controller
+                vendor: Realtek Semiconductor Co., Ltd.
+                physical id: 0
+                bus info: pci@0000:04:00.0
+                logical name: enp4s0
+                version: 05
+                serial: [REMOVED]
+                capacity: 1Gbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress msix vpd bus_master cap_list ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=r8169 driverversion=7.0.0-31-generic duplex=full firmware=rtl8125b-2_0.0.2 07/13/20 ip=[REMOVED] latency=0 link=yes multicast=yes port=twisted pair
+                resources: irq:19 ioport:3000(size=256) memory:80a00000-80a0ffff memory:80a10000-80a13fff
+        *-isa
+             description: ISA bridge
+             product: HM770 Chipset LPC/eSPI Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 11
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master
+             configuration: latency=0
+           *-pnp00:00
+                product: PnP device PNP0303
+                physical id: 0
+                capabilities: pnp
+                configuration: driver=i8042 kbd
+           *-pnp00:01
+                product: PnP device PNP0f03
+                physical id: 1
+                capabilities: pnp
+                configuration: driver=i8042 aux
+           *-pnp00:02
+                product: PnP device PNP0501
+                physical id: 2
+                capabilities: pnp
+                configuration: driver=serial
+        *-multimedia
+             description: Audio device
+             product: Raptor Lake High Definition Audio Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             logical name: card0
+             logical name: /dev/snd/controlC0
+             logical name: /dev/snd/hwC0D0
+             logical name: /dev/snd/hwC0D2
+             logical name: /dev/snd/pcmC0D0c
+             logical name: /dev/snd/pcmC0D0p
+             logical name: /dev/snd/pcmC0D2c
+             logical name: /dev/snd/pcmC0D3p
+             logical name: /dev/snd/pcmC0D7p
+             logical name: /dev/snd/pcmC0D8p
+             logical name: /dev/snd/pcmC0D9p
+             version: 11
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi hda_compatible bus_master cap_list
+             configuration: driver=snd_hda_intel latency=32
+             resources: iomemory:600-5ff iomemory:600-5ff irq:245 memory:6002120000-6002123fff memory:6002000000-60020fffff
+           *-input:0
+                product: HDA Intel PCH Rear Mic
+                physical id: 0
+                logical name: input13
+                logical name: /dev/input/event9
+           *-input:1
+                product: HDA Intel PCH Front Mic
+                physical id: 1
+                logical name: input14
+                logical name: /dev/input/event10
+           *-input:2
+                product: HDA Intel PCH Line
+                physical id: 2
+                logical name: input15
+                logical name: /dev/input/event11
+           *-input:3
+                product: HDA Intel PCH Line Out
+                physical id: 3
+                logical name: input16
+                logical name: /dev/input/event12
+           *-input:4
+                product: HDA Intel PCH Front Headphone
+                physical id: 4
+                logical name: input17
+                logical name: /dev/input/event13
+           *-input:5
+                product: HDA Intel PCH HDMI/DP,pcm=3
+                physical id: 5
+                logical name: input18
+                logical name: /dev/input/event14
+           *-input:6
+                product: HDA Intel PCH HDMI/DP,pcm=7
+                physical id: 6
+                logical name: input19
+                logical name: /dev/input/event15
+           *-input:7
+                product: HDA Intel PCH HDMI/DP,pcm=8
+                physical id: 7
+                logical name: input20
+                logical name: /dev/input/event16
+           *-input:8
+                product: HDA Intel PCH HDMI/DP,pcm=9
+                physical id: 8
+                logical name: input21
+                logical name: /dev/input/event17
+        *-serial:0
+             description: SMBus
+             product: 700 Series Chipset SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.4
+             bus info: pci@0000:00:1f.4
+             version: 11
+             width: 64 bits
+             clock: 33MHz
+             configuration: driver=i801_smbus latency=0
+             resources: iomemory:600-5ff irq:18 memory:600212c000-600212c0ff ioport:efa0(size=32)
+        *-serial:1
+             description: Serial bus controller
+             product: Raptor Lake SPI (flash) Controller
+             vendor: Intel Corporation
+             physical id: 1f.5
+             bus info: pci@0000:00:1f.5
+             version: 11
+             width: 32 bits
+             clock: 33MHz
+             configuration: driver=intel-spi latency=0
+             resources: irq:0 memory:80c04000-80c04fff
+  *-power UNCLAIMED
+       description: To Be Filled By O.E.M.
+       product: To Be Filled By O.E.M.
+       vendor: To Be Filled By O.E.M.
+       physical id: 1
+       version: To Be Filled By O.E.M.
+       serial: [REMOVED]
+       capacity: 32768mWh
+  *-input:0
+       product: Sleep Button
+       physical id: 2
+       logical name: input0
+       logical name: /dev/input/event0
+       capabilities: platform
+  *-input:1
+       product: Power Button
+       physical id: 3
+       logical name: input1
+       logical name: /dev/input/event1
+       capabilities: platform
+  *-input:2
+       product: Video Bus
+       physical id: 4
+       logical name: input12
+       logical name: /dev/input/event8
+       capabilities: platform
+  *-input:3
+       product: Power Button
+       physical id: 5
+       logical name: input2
+       logical name: /dev/input/event2
+       capabilities: platform
+
+===== CPU =====
+架構：                                   x86_64
+CPU 作業模式：                           32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  32
+On-line CPU(s) list:                     0-31
+供應商識別號：                           GenuineIntel
+Model name:                              13th Gen Intel(R) Core(TM) i9-13900HX
+CPU 家族：                               6
+型號：                                   183
+每核心執行緒數：                         2
+每通訊端核心數：                         24
+Socket(s):                               1
+製程：                                   1
+CPU(s) scaling MHz:                      16%
+CPU max MHz:                             5400.0000
+CPU min MHz:                             800.0000
+BogoMIPS:                                4838.40
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect user_shstk avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize arch_lbr ibt flush_l1d arch_capabilities
+虛擬：                                   VT-x
+L1d 快取：                               896 KiB (24 instances)
+L1i 快取：                               1.3 MiB (24 instances)
+L2 快取：                                32 MiB (12 instances)
+L3 快取：                                36 MiB (1 instance)
+NUMA 節點：                              1
+NUMA node0 CPU(s)：                      0-31
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Mitigation; Clear Register File
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+
+===== MEMORY =====
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 3.6.0 present.
+
+Handle 0x003B, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 128 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 4
+
+Handle 0x003C, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x003B
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: Controller0-ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: Unknown
+	Type Detail: None
+
+Handle 0x003D, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x003B
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: Controller0-ChannelA-DIMM1
+	Bank Locator: BANK 0
+	Type: DDR5
+	Type Detail: Synchronous
+	Speed: 4800 MT/s
+	Manufacturer: Micron Technology
+	Serial Number: 440DEFB9
+	Asset Tag: 9876543210
+	Part Number:                     
+	Rank: 1
+	Configured Memory Speed: 4800 MT/s
+	Minimum Voltage: 1.1 V
+	Maximum Voltage: 1.1 V
+	Configured Voltage: 1.1 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x003E, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x003B
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: Controller1-ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: Unknown
+	Type Detail: None
+
+Handle 0x003F, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x003B
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: Controller1-ChannelA-DIMM1
+	Bank Locator: BANK 0
+	Type: DDR5
+	Type Detail: Synchronous
+	Speed: 4800 MT/s
+	Manufacturer: Micron Technology
+	Serial Number: 430DEFB9
+	Asset Tag: 9876543210
+	Part Number:                     
+	Rank: 1
+	Configured Memory Speed: 4800 MT/s
+	Minimum Voltage: 1.1 V
+	Maximum Voltage: 1.1 V
+	Configured Voltage: 1.1 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+
+===== BIOS =====
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 3.6.0 present.
+
+Handle 0x0000, DMI type 0, 26 bytes
+BIOS Information
+	Vendor: American Megatrends International, LLC.
+	Version: 5.27
+	Release Date: 09/19/2024
+	Address: 0xF0000
+	Runtime Size: 64 kB
+	ROM Size: 16 MB
+	Characteristics:
+		PCI is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		BIOS ROM is socketed
+		EDD is supported
+		Japanese floppy for NEC 9800 1.2 MB is supported (int 13h)
+		Japanese floppy for Toshiba 1.2 MB is supported (int 13h)
+		5.25"/360 kB floppy services are supported (int 13h)
+		5.25"/1.2 MB floppy services are supported (int 13h)
+		3.5"/720 kB floppy services are supported (int 13h)
+		3.5"/2.88 MB floppy services are supported (int 13h)
+		Print screen service is supported (int 5h)
+		8042 keyboard services are supported (int 9h)
+		Serial services are supported (int 14h)
+		Printer services are supported (int 17h)
+		CGA/mono video services are supported (int 10h)
+		ACPI is supported
+		USB legacy is supported
+		BIOS boot specification is supported
+		Targeted content distribution is supported
+		UEFI is supported
+	BIOS Revision: 5.27
+
+Handle 0x0063, DMI type 13, 22 bytes
+BIOS Language Information
+	Language Description Format: Long
+	Installable Languages: 2
+		en|US|iso8859-1
+		zh|CN|unicode
+	Currently Installed Language: en|US|iso8859-1
+
+
+===== MOTHERBOARD =====
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 3.6.0 present.
+
+Handle 0x0002, DMI type 2, 15 bytes
+Base Board Information
+	Manufacturer: ERYING
+	Product Name: Polestar H770 ATX D5
+	Version:  
+	Serial Number:  
+	Asset Tag: Default string
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: Default string
+	Chassis Handle: 0x0003
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0021, DMI type 10, 6 bytes
+On Board Device Information
+	Type: Video
+	Status: Enabled
+	Description:    To Be Filled By O.E.M.
+
+Handle 0x0054, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:00.0
+
+Handle 0x0055, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Video
+	Type: Video
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:02.0
+
+Handle 0x0056, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 2
+	Bus Address: 0000:00:0a.0
+
+Handle 0x0057, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 3
+	Bus Address: 0000:00:14.0
+
+Handle 0x0058, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 4
+	Bus Address: 0000:00:14.2
+
+Handle 0x0059, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Ethernet
+	Type: Ethernet
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:14.3
+
+Handle 0x005A, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 5
+	Bus Address: 0000:00:16.0
+
+Handle 0x005B, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - SATA
+	Type: SATA Controller
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:17.0
+
+Handle 0x005C, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 6
+	Bus Address: 0000:00:1f.0
+
+Handle 0x005D, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Sound
+	Type: Sound
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:1f.3
+
+Handle 0x005E, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 7
+	Bus Address: 0000:00:1f.4
+
+Handle 0x005F, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 8
+	Bus Address: 0000:00:1f.5
+
+
+===== PCI DEVICES =====
+00:00.0 Host bridge [0600]: Intel Corporation Device [8086:a702] (rev 01)
+	DeviceName: Onboard - Other
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel modules: ie31200_edac
+00:01.0 PCI bridge [0604]: Intel Corporation Raptor Lake PCI Express 5.0 Graphics Port (PEG010) [8086:a70d] (rev 01)
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+00:02.0 VGA compatible controller [0300]: Intel Corporation Raptor Lake-S UHD Graphics [8086:a788] (rev 04)
+	DeviceName: Onboard - Video
+	Subsystem: Intel Corporation Device [8086:2212]
+	Kernel driver in use: i915
+	Kernel modules: i915, xe
+00:06.0 PCI bridge [0604]: Intel Corporation Raptor Lake PCI Express 4.0 Graphics Port [8086:a74d] (rev 01)
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+00:0a.0 Signal processing controller [1180]: Intel Corporation Raptor Lake Crashlog and Telemetry [8086:a77d] (rev 01)
+	DeviceName: Onboard - Other
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: intel_vsec
+	Kernel modules: intel_vsec
+00:14.0 USB controller [0c03]: Intel Corporation Raptor Lake USB 3.2 Gen 2x2 (20 Gb/s) XHCI Host Controller [8086:7a60] (rev 11)
+	DeviceName: Onboard - Other
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: xhci_hcd
+	Kernel modules: mei_me
+00:14.2 RAM memory [0500]: Intel Corporation Raptor Lake PCH Shared SRAM [8086:7a27] (rev 11)
+	DeviceName: Onboard - Other
+	Subsystem: Intel Corporation Device [8086:7270]
+00:14.3 Network controller [0280]: Intel Corporation 700 Series Chipset CNVi WiFi [8086:7a70] (rev 11)
+	DeviceName: Onboard - Ethernet
+	Subsystem: Intel Corporation Device [8086:0234]
+	Kernel driver in use: iwlwifi
+	Kernel modules: iwlwifi
+00:16.0 Communication controller [0780]: Intel Corporation Raptor Lake CSME HECI #1 [8086:7a68] (rev 11)
+	DeviceName: Onboard - Other
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+00:17.0 SATA controller [0106]: Intel Corporation Device [8086:7a63] (rev 11)
+	DeviceName: Onboard - SATA
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: ahci
+	Kernel modules: ahci
+00:1c.0 PCI bridge [0604]: Intel Corporation Raptor Lake PCI Express Root Port #5 [8086:7a3c] (rev 11)
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+00:1d.0 PCI bridge [0604]: Intel Corporation Raptor Lake PCI Express Root Port #16 [8086:7a37] (rev 11)
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+00:1f.0 ISA bridge [0601]: Intel Corporation HM770 Chipset LPC/eSPI Controller [8086:7a0c] (rev 11)
+	DeviceName: Onboard - Other
+	Subsystem: Intel Corporation Device [8086:7270]
+00:1f.3 Audio device [0403]: Intel Corporation Raptor Lake High Definition Audio Controller [8086:7a50] (rev 11)
+	DeviceName: Onboard - Sound
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_soc_avs, snd_sof_pci_intel_tgl, snd_hda_intel
+00:1f.4 SMBus [0c05]: Intel Corporation 700 Series Chipset SMBus Controller [8086:7a23] (rev 11)
+	DeviceName: Onboard - Other
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Raptor Lake SPI (flash) Controller [8086:7a24] (rev 11)
+	DeviceName: Onboard - Other
+	Subsystem: Intel Corporation Device [8086:7270]
+	Kernel driver in use: intel-spi
+	Kernel modules: spi_intel_pci
+01:00.0 Ethernet controller [0200]: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 [8086:1528] (rev 01)
+	Subsystem: IEIT SYSTEMS Co., Ltd 10G base-T DP EP102Ti3A Adapter [1bd4:0034]
+	Kernel driver in use: ixgbe
+	Kernel modules: ixgbe
+01:00.1 Ethernet controller [0200]: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 [8086:1528] (rev 01)
+	Subsystem: IEIT SYSTEMS Co., Ltd 10G base-T DP EP102Ti3A Adapter [1bd4:0034]
+	Kernel driver in use: ixgbe
+	Kernel modules: ixgbe
+02:00.0 Non-Volatile memory controller [0108]: Samsung Electronics Co Ltd NVMe SSD Controller SM951/PM951 [144d:a802] (rev 01)
+	Subsystem: Samsung Electronics Co Ltd PM963 2.5" NVMe PCIe SSD [144d:a801]
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+03:00.0 Serial Attached SCSI controller [0107]: Broadcom / LSI SAS2308 PCI-Express Fusion-MPT SAS-2 [1000:0087] (rev 05)
+	Subsystem: Broadcom / LSI 9207-8i SAS2.1 HBA [1000:3020]
+	Kernel driver in use: mpt3sas
+	Kernel modules: mpt3sas
+04:00.0 Ethernet controller [0200]: Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller [10ec:8125] (rev 05)
+	Subsystem: Realtek Semiconductor Co., Ltd. Device [10ec:0123]
+	Kernel driver in use: r8169
+	Kernel modules: r8169
+
+===== USB DEVICES =====
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 05e3:0608 Genesys Logic, Inc. Hub
+Bus 001 Device 003: ID 093a:2510 Pixart Imaging, Inc. Optical Mouse
+Bus 001 Device 004: ID 060b:5253 Solid Year Thermaltake MEKA G-Unit Gaming Keyboard
+Bus 001 Device 005: ID 8087:0aaa Intel Corp. Bluetooth 9460/9560 Jefferson Peak (JfP)
+Bus 001 Device 006: ID 04d9:2834 Holtek Semiconductor, Inc. HT82A834R Audio MCU
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+
+===== BLOCK DEVICES =====
+NAME          SIZE TYPE FSTYPE   MODEL                      SERIAL
+loop0           4K loop squashfs                            
+loop1        66.8M loop squashfs                            
+loop2          20M loop squashfs                            
+loop3       260.3M loop squashfs                            
+loop4        16.5M loop squashfs                            
+loop5       614.5M loop squashfs                            
+loop6        91.7M loop squashfs                            
+loop7         1.5M loop squashfs                            
+loop8         402M loop squashfs                            
+loop9        11.8M loop squashfs                            
+loop10       18.8M loop squashfs                            
+loop11        828K loop squashfs                            
+loop12       50.1M loop squashfs                            
+loop13      221.1M loop squashfs                            
+loop14       63.8M loop squashfs                            
+loop15       55.5M loop squashfs                            
+loop16      109.4M loop squashfs                            
+loop17      164.8M loop squashfs                            
+nvme0n1     238.5G disk          SAMSUNG MZFLV256HCHP-000MV S245NX0H707036
+├─nvme0n1p1     1G part vfat                                
+└─nvme0n1p2 237.4G part ext4                                
+
+===== NVMe =====
+
+===== KERNEL =====
+Linux test-Polestar-H770 7.0.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 04:26:38 UTC 2026 x86_64 GNU/Linux
+
+===== LOADED KERNEL MODULES =====
+Module                  Size  Used by
+rfcomm                110592  4
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+qrtr                   53248  2
+cmac                   12288  2
+algif_hash             20480  1
+algif_skcipher         12288  1
+af_alg                 32768  6 algif_hash,algif_skcipher
+bnep                   32768  2
+cpuid                  12288  0
+snd_hda_codec_intelhdmi    24576  1
+snd_hda_codec_hdmi     65536  1 snd_hda_codec_intelhdmi
+snd_hda_codec_alc662    20480  1
+snd_hda_codec_realtek_lib    65536  1 snd_hda_codec_alc662
+snd_hda_codec_generic   126976  2 snd_hda_codec_alc662,snd_hda_codec_realtek_lib
+snd_hda_intel          65536  1
+snd_sof_pci_intel_tgl    16384  0
+snd_sof_pci_intel_cnl    20480  1 snd_sof_pci_intel_tgl
+snd_sof_intel_hda_generic    40960  2 snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+soundwire_intel        86016  1 snd_sof_intel_hda_generic
+snd_sof_intel_hda_sdw_bpt    20480  1 soundwire_intel
+snd_sof_intel_hda_common   200704  4 snd_sof_intel_hda_sdw_bpt,snd_sof_intel_hda_generic,snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+snd_soc_hdac_hda       20480  1 snd_sof_intel_hda_common
+snd_sof_intel_hda_mlink    45056  4 snd_sof_intel_hda_sdw_bpt,soundwire_intel,snd_sof_intel_hda_common,snd_sof_intel_hda_generic
+snd_sof_intel_hda      24576  2 snd_sof_intel_hda_common,snd_sof_intel_hda_generic
+soundwire_cadence      53248  1 soundwire_intel
+snd_sof_pci            24576  3 snd_sof_intel_hda_generic,snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+snd_sof_xtensa_dsp     12288  1 snd_sof_intel_hda_generic
+snd_sof               438272  6 snd_sof_intel_hda_sdw_bpt,snd_sof_pci,snd_sof_intel_hda_common,snd_sof_intel_hda_generic,snd_sof_intel_hda,snd_sof_pci_intel_cnl
+xe                   4415488  0
+snd_sof_utils          16384  1 snd_sof
+intel_rapl_msr         20480  0
+snd_soc_acpi_intel_match   147456  3 snd_sof_intel_hda_generic,snd_sof_pci_intel_tgl,snd_sof_pci_intel_cnl
+snd_soc_acpi_intel_sdca_quirks    12288  1 snd_soc_acpi_intel_match
+soundwire_generic_allocation    24576  1 soundwire_intel
+snd_soc_sdw_utils     126976  1 snd_sof_intel_hda_generic
+snd_soc_acpi           16384  2 snd_soc_acpi_intel_match,snd_sof_intel_hda_generic
+soundwire_bus        1183744  4 soundwire_intel,snd_soc_sdw_utils,soundwire_generic_allocation,soundwire_cadence
+snd_soc_sdca          126976  2 snd_soc_acpi_intel_sdca_quirks,soundwire_bus
+crc8                   12288  1 soundwire_cadence
+drm_gpusvm_helper      57344  1 xe
+snd_soc_avs           233472  0
+gpu_sched              69632  1 xe
+drm_gpuvm              57344  1 xe
+snd_soc_hda_codec      24576  1 snd_soc_avs
+drm_ttm_helper         20480  1 xe
+snd_hda_ext_core       32768  7 snd_sof_intel_hda_sdw_bpt,snd_soc_avs,snd_soc_hda_codec,snd_sof_intel_hda_common,snd_soc_hdac_hda,snd_sof_intel_hda_mlink,snd_sof_intel_hda
+drm_exec               12288  2 drm_gpuvm,xe
+drm_suballoc_helper    24576  1 xe
+intel_rapl_common      57344  1 intel_rapl_msr
+snd_hda_codec         212992  10 snd_hda_codec_generic,snd_soc_avs,snd_hda_codec_hdmi,snd_soc_hda_codec,snd_hda_intel,snd_hda_codec_alc662,snd_hda_codec_realtek_lib,snd_soc_hdac_hda,snd_sof_intel_hda,snd_hda_codec_intelhdmi
+intel_uncore_frequency    12288  0
+binfmt_misc            24576  1
+intel_uncore_frequency_common    20480  1 intel_uncore_frequency
+snd_hda_core          151552  13 snd_hda_codec_generic,snd_soc_avs,snd_hda_codec_hdmi,snd_soc_hda_codec,snd_hda_intel,snd_hda_codec_alc662,snd_hda_ext_core,snd_hda_codec,snd_sof_intel_hda_common,snd_hda_codec_realtek_lib,snd_soc_hdac_hda,snd_sof_intel_hda,snd_hda_codec_intelhdmi
+snd_intel_dspcfg       45056  5 snd_soc_avs,snd_hda_intel,snd_sof,snd_sof_intel_hda_common,snd_sof_intel_hda_generic
+snd_intel_sdw_acpi     16384  2 snd_intel_dspcfg,snd_sof_intel_hda_generic
+iwlmvm                868352  0
+snd_usb_audio         622592  1
+snd_soc_core          446464  8 snd_soc_avs,snd_soc_hda_codec,soundwire_intel,snd_sof,snd_soc_sdca,snd_sof_intel_hda_common,snd_soc_sdw_utils,snd_soc_hdac_hda
+x86_pkg_temp_thermal    20480  0
+intel_powerclamp       28672  0
+snd_usbmidi_lib        57344  1 snd_usb_audio
+snd_compress           40960  2 snd_soc_avs,snd_soc_core
+snd_hwdep              24576  2 snd_usb_audio,snd_hda_codec
+ac97_bus               12288  1 snd_soc_core
+coretemp               24576  0
+nls_iso8859_1          12288  1
+mac80211             1933312  1 iwlmvm
+snd_pcm_dmaengine      20480  1 snd_soc_core
+snd_ump                49152  1 snd_usb_audio
+kvm_intel             552960  0
+snd_seq_midi           24576  0
+i915                 5099520  29
+libarc4                12288  1 mac80211
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_rawmidi            57344  3 snd_seq_midi,snd_usbmidi_lib,snd_ump
+btusb                  81920  0
+kvm                  1527808  1 kvm_intel
+btmtk                  36864  1 btusb
+btrtl                  36864  1 btusb
+drm_buddy              28672  2 xe,i915
+cmdlinepart            16384  0
+btbcm                  24576  1 btusb
+iwlwifi               655360  1 iwlmvm
+snd_seq               126976  9 snd_seq_midi,snd_seq_midi_event,snd_seq_dummy
+snd_pcm               208896  15 snd_soc_avs,snd_hda_codec_hdmi,snd_hda_intel,snd_usb_audio,snd_hda_codec,soundwire_intel,snd_sof,snd_soc_sdca,snd_sof_intel_hda_common,snd_compress,snd_sof_intel_hda_generic,snd_soc_core,snd_sof_utils,snd_hda_core,snd_pcm_dmaengine
+irqbypass              16384  1 kvm
+btintel                69632  1 btusb
+ttm                   135168  3 drm_ttm_helper,xe,i915
+spi_nor               180224  0
+rapl                   20480  0
+r8169                 151552  0
+mei_hdcp               28672  0
+mei_pxp                16384  0
+mtd                   106496  3 spi_nor,cmdlinepart
+intel_cstate           20480  0
+snd_seq_device         16384  4 snd_seq,snd_seq_midi,snd_ump,snd_rawmidi
+drm_display_helper    303104  2 xe,i915
+input_leds             12288  0
+joydev                 32768  0
+bluetooth            1134592  34 btrtl,btmtk,btintel,btbcm,bnep,btusb,rfcomm
+mc                     90112  1 snd_usb_audio
+wmi_bmof               12288  0
+realtek                57344  1
+ixgbe                 598016  0
+snd_timer              53248  3 snd_seq,snd_hrtimer,snd_pcm
+cec                   106496  3 drm_display_helper,xe,i915
+cfg80211             1548288  3 iwlmvm,iwlwifi,mac80211
+libie_fwlog            28672  1 ixgbe
+intel_pmc_core        151552  0
+i2c_i801               36864  0
+snd                   147456  25 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_usb_audio,snd_usbmidi_lib,snd_hda_codec,snd_sof,snd_soc_sdca,snd_timer,snd_hda_codec_realtek_lib,snd_compress,snd_soc_sdw_utils,snd_soc_core,snd_ump,snd_pcm,snd_rawmidi
+xfrm_algo              16384  1 ixgbe
+rc_core                81920  1 cec
+mdio                   12288  1 ixgbe
+spi_intel_pci          12288  0
+i2c_smbus              20480  1 i2c_i801
+pmt_telemetry          16384  1 intel_pmc_core
+i2c_algo_bit           16384  2 xe,i915
+soundcore              16384  1 snd
+dca                    20480  1 ixgbe
+i2c_mux                20480  1 i2c_i801
+spi_intel              36864  1 spi_intel_pci
+pmt_discovery          24576  1 pmt_telemetry
+pmt_class              20480  2 pmt_telemetry,pmt_discovery
+intel_pmc_ssram_telemetry    16384  1 intel_pmc_core
+acpi_pad              184320  0
+intel_vsec             24576  3 intel_pmc_ssram_telemetry,pmt_telemetry,xe
+acpi_tad               20480  0
+mei_me                 61440  2
+mac_hid                12288  0
+mei                   184320  5 mei_hdcp,mei_pxp,mei_me
+sch_fq_codel           28672  66
+efi_pstore             12288  0
+hid_generic            12288  0
+nvme                   69632  2
+usbhid                 86016  0
+mpt3sas               430080  0
+hid                   282624  3 usbhid,snd_soc_sdca,hid_generic
+nvme_core             241664  3 nvme
+psmouse               225280  0
+nvme_keyring           20480  1 nvme_core
+raid_class             12288  1 mpt3sas
+ghash_clmulni_intel    12288  0
+serio_raw              20480  0
+ahci                   53248  0
+nvme_auth              28672  1 nvme_core
+video                  77824  2 xe,i915
+scsi_transport_sas     57344  1 mpt3sas
+hkdf                   12288  1 nvme_auth
+libahci                57344  1 ahci
+wmi                    36864  2 video,wmi_bmof
+ppdev                  24576  0
+lp                     32768  0
+parport                81920  2 lp,ppdev
+msr                    12288  0
+dmi_sysfs              28672  0
+autofs4                61440  2
+aesni_intel            98304  1
