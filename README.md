@@ -5,7 +5,8 @@ You cound found information about Install, basic config, and Data Recovery of Te
 
 如果你覺得我的資料有用的話你可以給我一點打賞作為鼓勵，謝謝。
 --------------------------------------------
-BTC : 1FYUaJsSmMkLxRb3nGqss79FvfXDhVZAeb
+BTC : 
+1FYUaJsSmMkLxRb3nGqss79FvfXDhVZAeb
 ETH : 0x54100cD0bCb96761b00855c5d18a33f6DC60a88C
 DASH : Xz1uhc5MGQ1gtJro2tWkxRCjzraNNtFuai
 BCH : bitcoincash:qqnc5mk73w04vytlff9cpynmmvd08km0u5fzle5ryk
