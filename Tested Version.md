@@ -1,4 +1,4 @@
-# 經測試並能成功安裝版本
+# 經測試並能成功安裝版本 (Success)
 
 | Package Vesion | MD5 |
 | --- | --- |
@@ -8,4 +8,4 @@
 | [TOS_X642.0_7.0.1201_1701_2609011056](https://download3.terra-master.com/TOS%20packages/TOS%20installation%20packages/7.0/x.64/TOS_X642.0_7.0.1201_1701_2609011056.ins) | B43838515A7C4429C5545547B9DDD24B |
 
 
-# 不能成功安裝版本
+# 不能成功安裝版本 (Failed)
