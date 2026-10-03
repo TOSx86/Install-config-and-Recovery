@@ -5,6 +5,8 @@ You cound found information about Installing TerraMaster NAS operation system (T
 
 
 這個是我用來記錄我自己在DIY 電腦上安裝 Terramaster 的NAS OS i.e. TOS 7的所有相關資料
+## [安裝教程-繁體中文](https://github.com/TOSx86/Install-config-and-Recovery/wiki/%E5%9C%A8x86%E9%9B%BB%E8%85%A6%E4%B8%8A%E5%AE%89%E8%A3%9DTerramaster-TOS-7)
+## [安裝教程-簡體中文)
 
 如果你覺得我的資料有用的話你可以給我一點打賞作為鼓勵，謝謝。
 --------------------------------------------
