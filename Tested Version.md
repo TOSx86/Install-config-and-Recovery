@@ -9,3 +9,7 @@
 
 
 # 不能成功安裝版本 (Failed)
+| Package Vesion | packageMD5 | Details |
+| --- | --- | --- |
+| [Version:7.0.1278](https://download3.terra-master.com/TOS%20packages/TOS%20installation%20packages/7.0/x.64/TOS_X642.0_7.0.1278_1778_2609241521.ins) | 12e5576672e0572d5246d04b7bcc806b | Can boot the NAS, but can’t login |
+|  |  |  |
