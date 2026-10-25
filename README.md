@@ -1,7 +1,7 @@
 # Terramaster TOS 7 Installation on DIY x86 NAS
 You cound found information about Installing TerraMaster NAS operation system (TOS) on DIY x86 machine, basic config about TOS7, and Data Recovery of TOS7 
 
-## [Step by step installation guide](https://github.com/TOSx86/Install-config-and-Recovery/wiki/Install-Terramaster-TOS-7-on-an-x86-computer](https://github.com/TOSx86/Install-config-and-Recovery/wiki/B.Install-Terramaster-TOS-7-on-an-x86-computer)
+## [Step by step installation guide](https://github.com/TOSx86/Install-config-and-Recovery/wiki/B.Install-Terramaster-TOS-7-on-an-x86-computer)
 
 
 這個是我用來記錄我自己在DIY 電腦上安裝 Terramaster 的NAS OS i.e. TOS 7的所有相關資料
